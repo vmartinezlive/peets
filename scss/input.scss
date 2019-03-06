@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  border: 1px solid red;
+
+}
+
+@mixin uppercase {
+    text-transform: uppercase;
+}
+
+@mixin nunito {
+    font-family: 'Nunito', sans-serif;
+}
+
+.subscription {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+    display: flex;
+    justify-content: space-around;
+    @include nunito;
+    background-color: #6c5736;
+}
+
+#five-dollar {
+    padding-left: 200px;
+    color: white;
+}
+
+.store {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    span {
+      width: 20px;
+
+    }
+
+    #pin {
+      text-decoration: none;
+      color: white;
+      background-color: #bea586;
+      padding-right: 200px;
+    }
+}
+
+
+
+
+
+
+header {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    background-color: #f4f4f4;
+
+    #logo {
+      position: relative;
+      margin-left: 150px;
+      width: 160px;
+      height: 40px;
+    }
+}
+
+nav {
+
+
+    a {
+      @include uppercase;
+      color: black;
+      text-decoration: none;
+      margin-left: 20px;
+      margin-right: 20px;
+      font-size: 20px;
+      @include nunito;
+      }
+}
+
+.sign-in {
+    display: flex;
+    flex-direction: row;
+
+
+    a {
+      @include uppercase;
+      color: black;
+      text-decoration: none;
+      margin-left: 20px;
+      margin-right: 20px;
+      font-size: 20px;
+      @include nunito;
+      }
+
+    #search {
+      position: relative;
+      width: 30px;
+      height: 30px;
+    }
+
+
+    #cart {
+      position: relative;
+      margin-right: 10px;
+      width: 30px;
+      height: 30px;
+
+  }
+
+}
