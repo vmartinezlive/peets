@@ -14,7 +14,6 @@
 }
 
 #five-dollar {
-  padding-left: 200px;
   color: white;
 }
 
@@ -82,6 +81,10 @@ nav a {
   margin-right: 10px;
   width: 30px;
   height: 30px;
+}
+
+#woman {
+  width: 100%;
 }
 
 /*# sourceMappingURL=output.css.map */
