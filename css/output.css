@@ -87,4 +87,33 @@ nav a {
   width: 100%;
 }
 
+.ejo {
+  position: inherit;
+  display: flex;
+  flex-direction: row;
+}
+.ejo .text {
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  position: relative;
+  top: 30vh;
+}
+.ejo #top-header {
+  text-transform: uppercase;
+  color: #8b6f4e;
+  font-size: 15px;
+}
+.ejo h1 {
+  font-size: 30px;
+}
+.ejo button {
+  background-color: #8b6f4e;
+  color: white;
+}
+.ejo p {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 /*# sourceMappingURL=output.css.map */

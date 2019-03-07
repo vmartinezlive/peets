@@ -4,6 +4,10 @@
 
 }
 
+//variable:
+$brown: #8b6f4e;
+
+
 @mixin uppercase {
     text-transform: uppercase;
 }
@@ -109,4 +113,39 @@ nav {
 
 #woman {
   width: 100%;
+}
+
+.ejo {
+  display: flex;
+  flex-direction: row;
+
+
+  .text {
+      @include nunito;
+      text-align: center;
+      position: relative;
+      top: 30vh;
+
+  }
+
+  #top-header {
+    @include uppercase;
+    color: $brown;
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  button {
+    background-color: $brown;
+    color: white;
+  }
+
+  p {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
