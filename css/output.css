@@ -88,7 +88,6 @@ nav a {
 }
 
 .ejo {
-  position: inherit;
   display: flex;
   flex-direction: row;
 }
@@ -96,7 +95,8 @@ nav a {
   font-family: "Nunito", sans-serif;
   text-align: center;
   position: relative;
-  top: 30vh;
+  top: 100px;
+  bottom: 100px;
 }
 .ejo #top-header {
   text-transform: uppercase;
@@ -114,6 +114,86 @@ nav a {
   text-align: center;
   margin-left: 10px;
   margin-right: 10px;
+  font-family: "Nunito", sans-serif;
+}
+
+.shop {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.shop h1 {
+  text-transform: uppercase;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+}
+.shop p {
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.shop .coffee {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 325px;
+}
+.shop .coffee .vl-1 {
+  background-color: #8b6f4e;
+  width: 175px;
+  align-self: center;
+}
+.shop .tea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 325px;
+}
+.shop .tea .vl-2 {
+  background-color: #8b6f4e;
+  width: 115px;
+  align-self: center;
+}
+.shop .equipment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 325px;
+}
+.shop .equipment .vl-3 {
+  background-color: #8b6f4e;
+  width: 220px;
+  align-self: center;
+}
+
+.coffee-click {
+  display: flex;
+  flex-direction: row;
+}
+.coffee-click .text2 {
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.coffee-click .text2 #coffee-bags {
+  width: 200px;
+}
+.coffee-click .text2 h1 {
+  font-size: 30px;
+}
+.coffee-click .text2 button {
+  background-color: #8b6f4e;
+  color: white;
+}
+.coffee-click .text2 p {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+}
+.coffee-click #signage {
+  width: 200px;
+  height: 300px;
 }
 
 /*# sourceMappingURL=output.css.map */

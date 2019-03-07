@@ -124,7 +124,8 @@ nav {
       @include nunito;
       text-align: center;
       position: relative;
-      top: 30vh;
+      top: 100px;
+      bottom: 100px;
 
   }
 
@@ -147,5 +148,112 @@ nav {
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
+    @include nunito;
+  }
+}
+
+.shop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    h1 {
+      @include uppercase;
+      @include nunito;
+      text-align: center;
+
+    }
+
+    p {
+      @include nunito;
+      text-align: center;
+      margin-left: 12px;
+      margin-right: 12px;
+    }
+
+
+  .coffee {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 325px;
+
+    .vl-1 {
+      background-color: $brown;
+      width: 175px;
+      align-self: center;
+
+    }
+  }
+
+  .tea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 325px;
+
+    .vl-2 {
+      background-color: $brown;
+      width: 115px;
+      align-self: center;
+
+    }
+  }
+
+  .equipment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 325px;
+
+    .vl-3 {
+      background-color: $brown;
+      width: 220px;
+      align-self: center;
+    }
+  }
+}
+
+
+.coffee-click {
+  display: flex;
+  flex-direction: row;
+  
+
+
+  .text2 {
+      @include nunito;
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      // position: relative;
+      // top: 50px;
+      // bottom: 100px;
+
+
+  #coffee-bags {
+    width:200px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+
+  button {
+    background-color: $brown;
+    color: white;
+  }
+
+  p {
+    text-align: center;
+    // margin-left: 10px;
+    // margin-right: 10px;
+    @include nunito;
+  }
+
+  }
+
+  #signage {
+    width: 200px;
+    height: 300px;
   }
 }
