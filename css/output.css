@@ -177,4 +177,29 @@ nav a {
     .coffee-click .order .signage {
       width: 100%; }
 
+#location {
+  width: 45%;
+  margin-left: 15rem; }
+
+.team {
+  margin-top: 1rem; }
+  .team h1 {
+    font-size: 15%;
+    letter-spacing: 0.25em;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase; }
+  .team .openings {
+    display: flex;
+    justify-content: center;
+    flex-direction: row; }
+    .team .openings img {
+      width: 20%;
+      height: 35%;
+      padding-left: 2em;
+      padding-right: 2em; }
+
+#beans {
+  width: 100%; }
+
 /*# sourceMappingURL=output.css.map */
