@@ -30,16 +30,16 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-self: center;
   width: 100%;
-  height: 4rem;
+  height: 3rem;
   margin-top: .75rem;
   background-color: #f4f4f4;
   padding-top: .25rem; }
   header #logo {
-    position: relative;
-    margin-left: 2rem;
-    width: 25%;
-    height: 35%; }
+    width: 18%;
+    height: 35%;
+    margin-left: 4rem; }
 
 nav a {
   text-transform: uppercase;
@@ -52,7 +52,8 @@ nav a {
 
 .sign-in {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  padding-right: .25rem; }
   .sign-in a {
     text-transform: uppercase;
     color: black;
@@ -69,7 +70,8 @@ nav a {
     position: relative;
     margin-right: .25rem;
     width: 2rem;
-    height: 35%; }
+    height: 35%;
+    margin-right: 4rem; }
 
 #woman {
   width: 100%; }
@@ -81,22 +83,27 @@ nav a {
     font-family: 'Nunito', sans-serif;
     text-align: center;
     position: relative;
-    top: 100px;
-    bottom: 100px; }
+    top: 10rem;
+    bottom: 10rem;
+    width: 50%; }
   .ejo #top-header {
     text-transform: uppercase;
     color: #8b6f4e;
-    font-size: 15px; }
+    font-size: 1em; }
   .ejo h1 {
-    font-size: 30px; }
+    font-size: 2rem; }
   .ejo button {
     background-color: #8b6f4e;
     color: white; }
   .ejo p {
     text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: .35em;
+    margin-right: .35em;
     font-family: 'Nunito', sans-serif; }
+  .ejo .ejo-pic {
+    width: 50%; }
+    .ejo .ejo-pic #land {
+      width: 100%; }
 
 .shop {
   display: flex;
