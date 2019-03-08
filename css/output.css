@@ -1,199 +1,157 @@
 * {
   margin: 0;
-  border: 1px solid red;
-}
+  border: 1px solid red; }
 
 .subscription {
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: .25rem;
+  padding-bottom: .25rem;
   width: 100%;
   display: flex;
   justify-content: space-around;
-  font-family: "Nunito", sans-serif;
-  background-color: #6c5736;
-}
+  font-family: 'Nunito', sans-serif;
+  background-color: #6c5736; }
 
 #five-dollar {
-  color: white;
-}
+  color: white; }
 
 .store {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-}
-.store span {
-  width: 20px;
-}
-.store #pin {
-  text-decoration: none;
-  color: white;
-  background-color: #bea586;
-  padding-right: 200px;
-}
+  justify-content: space-between; }
+  .store span {
+    width: 1.5rem; }
+  .store #pin {
+    text-decoration: none;
+    color: white;
+    background-color: #bea586;
+    padding-right: .25em; }
 
 header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  height: 50px;
-  margin-top: 20px;
+  height: 4rem;
+  margin-top: .75rem;
   background-color: #f4f4f4;
-}
-header #logo {
-  position: relative;
-  margin-left: 150px;
-  width: 160px;
-  height: 40px;
-}
+  padding-top: .25rem; }
+  header #logo {
+    position: relative;
+    margin-left: 2rem;
+    width: 25%;
+    height: 35%; }
 
 nav a {
   text-transform: uppercase;
   color: black;
   text-decoration: none;
-  margin-left: 20px;
-  margin-right: 20px;
-  font-size: 20px;
-  font-family: "Nunito", sans-serif;
-}
+  margin-left: .25rem;
+  margin-right: .25rem;
+  font-size: .75rem;
+  font-family: 'Nunito', sans-serif; }
 
 .sign-in {
   display: flex;
-  flex-direction: row;
-}
-.sign-in a {
-  text-transform: uppercase;
-  color: black;
-  text-decoration: none;
-  margin-left: 20px;
-  margin-right: 20px;
-  font-size: 20px;
-  font-family: "Nunito", sans-serif;
-}
-.sign-in #search {
-  position: relative;
-  width: 30px;
-  height: 30px;
-}
-.sign-in #cart {
-  position: relative;
-  margin-right: 10px;
-  width: 30px;
-  height: 30px;
-}
+  flex-direction: row; }
+  .sign-in a {
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    margin-left: .25rem;
+    margin-right: .25rem;
+    font-size: .75rem;
+    font-family: 'Nunito', sans-serif; }
+  .sign-in #search {
+    position: relative;
+    width: 2rem;
+    height: 35%; }
+  .sign-in #cart {
+    position: relative;
+    margin-right: .25rem;
+    width: 2rem;
+    height: 35%; }
 
 #woman {
-  width: 100%;
-}
+  width: 100%; }
 
 .ejo {
   display: flex;
-  flex-direction: row;
-}
-.ejo .text {
-  font-family: "Nunito", sans-serif;
-  text-align: center;
-  position: relative;
-  top: 100px;
-  bottom: 100px;
-}
-.ejo #top-header {
-  text-transform: uppercase;
-  color: #8b6f4e;
-  font-size: 15px;
-}
-.ejo h1 {
-  font-size: 30px;
-}
-.ejo button {
-  background-color: #8b6f4e;
-  color: white;
-}
-.ejo p {
-  text-align: center;
-  margin-left: 10px;
-  margin-right: 10px;
-  font-family: "Nunito", sans-serif;
-}
+  flex-direction: row; }
+  .ejo .text {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    bottom: 100px; }
+  .ejo #top-header {
+    text-transform: uppercase;
+    color: #8b6f4e;
+    font-size: 15px; }
+  .ejo h1 {
+    font-size: 30px; }
+  .ejo button {
+    background-color: #8b6f4e;
+    color: white; }
+  .ejo p {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Nunito', sans-serif; }
 
 .shop {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-}
-.shop h1 {
-  text-transform: uppercase;
-  font-family: "Nunito", sans-serif;
-  text-align: center;
-}
-.shop p {
-  font-family: "Nunito", sans-serif;
-  text-align: center;
-  margin-left: 12px;
-  margin-right: 12px;
-}
-.shop .coffee {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 325px;
-}
-.shop .coffee .vl-1 {
-  background-color: #8b6f4e;
-  width: 175px;
-  align-self: center;
-}
-.shop .tea {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 325px;
-}
-.shop .tea .vl-2 {
-  background-color: #8b6f4e;
-  width: 115px;
-  align-self: center;
-}
-.shop .equipment {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 325px;
-}
-.shop .equipment .vl-3 {
-  background-color: #8b6f4e;
-  width: 220px;
-  align-self: center;
-}
+  justify-content: center; }
+  .shop h1 {
+    text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
+    text-align: center; }
+  .shop p {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    margin-left: 12px;
+    margin-right: 12px; }
+  .shop .coffee {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 325px; }
+    .shop .coffee .vl-1 {
+      background-color: #8b6f4e;
+      width: 175px;
+      align-self: center; }
+  .shop .tea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 325px; }
+    .shop .tea .vl-2 {
+      background-color: #8b6f4e;
+      width: 115px;
+      align-self: center; }
+  .shop .equipment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 325px; }
+    .shop .equipment .vl-3 {
+      background-color: #8b6f4e;
+      width: 220px;
+      align-self: center; }
 
 .coffee-click {
   display: flex;
-  flex-direction: row;
-}
-.coffee-click .text2 {
-  font-family: "Nunito", sans-serif;
+  flex-direction: row; }
+
+.text2 {
+  font-family: 'Nunito', sans-serif;
   display: flex;
   flex-direction: column;
-  width: 300px;
-}
-.coffee-click .text2 #coffee-bags {
-  width: 200px;
-}
-.coffee-click .text2 h1 {
-  font-size: 30px;
-}
-.coffee-click .text2 button {
-  background-color: #8b6f4e;
-  color: white;
-}
-.coffee-click .text2 p {
-  text-align: center;
-  font-family: "Nunito", sans-serif;
-}
-.coffee-click #signage {
-  width: 200px;
-  height: 300px;
-}
+  width: 100%; }
+  .text2 #coffee-bags {
+    width: 100%; }
+  .text2 .order .signage {
+    width: 30%;
+    height: 30%; }
 
 /*# sourceMappingURL=output.css.map */
