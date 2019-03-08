@@ -169,8 +169,7 @@ nav a {
     flex-direction: column;
     width: 45vw;
     margin-top: 1.5rem;
-    margin-bottom: 4.5rem;
-    background-color: yellow; }
+    margin-bottom: 4.5rem; }
     .coffee-click .text2 #coffee-bags {
       width: 60%;
       height: 30%;
@@ -253,6 +252,35 @@ section {
     header .sign-in {
       display: none; }
     header nav {
-      margin-right: 5rem; } }
+      margin-right: 5rem; }
+
+  section p {
+    font-size: .75em; }
+
+  #social {
+    width: 20vw;
+    height: 5vh;
+    margin-right: 10rem; } }
+@media screen and (max-width: 1145px) {
+  .shop img {
+    width: 25vw; }
+
+  section h4 {
+    font-size: .50em; }
+  section p {
+    font-size: .50em; }
+
+  .row1 h4 {
+    display: none; }
+  .row1 p {
+    display: none; }
+
+  .row2 .col-one {
+    display: none; }
+  .row2 #social {
+    margin-left: 20rem; } }
+@media screen and (max-width: 1141px) {
+  .subscription {
+    display: none; } }
 
 /*# sourceMappingURL=output.css.map */

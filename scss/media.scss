@@ -1,3 +1,4 @@
+//laptop
 @media screen and (max-width: 1200px) {
   header {
     display: flex;
@@ -10,19 +11,56 @@
         margin-right: 5rem;
       }
   }
+
+  section {
+    p{
+      font-size: .75em;
+    }
+  }
+  #social {
+    width: 20vw;
+    height: 5vh;
+    margin-right: 10rem;
+  }
 }
 
-
-@media screen and (max-width: 1150px) {
+//tablet
+@media screen and (max-width: 1145px) {
   .shop {
-
+    img {
+      width: 25vw;
+    }
+  }
+  section {
+    h4 {
+      font-size: .50em;
+    }
+    p {
+      font-size: .50em;
+    }
+  }
+  .row1 {
+    h4{
+      display: none;
+    }
+    p {
+      display: none;
+    }
+  }
+  .row2 {
+    .col-one {
+      display: none;
+    }
+    #social{
+      margin-left: 20rem;
+    }
   }
 }
 
-
-
-@mixin media-query {
-  @media screen and (max-width: 1150px){
-    @content
+//mobile 425px;
+@media screen and (max-width: 1141px) {
+  .subscription {
+    display: none;
   }
-}
+
+  }
