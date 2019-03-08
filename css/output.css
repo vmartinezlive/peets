@@ -159,36 +159,43 @@ nav a {
 .coffee-click {
   display: flex;
   flex-direction: row;
-  width: 100%; }
-
-.text2 {
-  font-family: 'Nunito', sans-serif;
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-  padding-top: 2rem;
-  margin-top: 4.5rem; }
-  .text2 #coffee-bags {
-    width: 60%;
-    height: 30%;
-    align-self: center;
-    margin-bottom: 1.5rem; }
-  .text2 h1 {
-    text-align: center;
-    font-family: 'Nunito', sans-serif; }
-  .text2 p {
+  align-items: center;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  width: 90vw; }
+  .coffee-click .text2 {
     font-family: 'Nunito', sans-serif;
-    text-transform: uppercase;
-    text-align: center;
-    margin-left: .45em;
-    margin-right: .45em; }
-  .text2 .order {
-    width: 50%; }
-    .text2 .order .signage {
-      width: 100%; }
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+    margin-top: 1.5rem;
+    margin-bottom: 4.5rem;
+    background-color: yellow; }
+    .coffee-click .text2 #coffee-bags {
+      width: 60%;
+      height: 30%;
+      align-self: center;
+      margin-bottom: 1.5rem; }
+    .coffee-click .text2 h1 {
+      text-align: center;
+      font-family: 'Nunito', sans-serif; }
+    .coffee-click .text2 p {
+      font-family: 'Nunito', sans-serif;
+      text-transform: uppercase;
+      text-align: center;
+      margin-left: .45em;
+      margin-right: .45em; }
+  .coffee-click .order {
+    width: 50vw; }
+    .coffee-click .order .signage {
+      width: 80%;
+      padding-top: .50rem;
+      padding-bottom: .50rem;
+      padding-left: .50rem;
+      padding-right: .50rem; }
 
 #location {
-  width: 45%; }
+  width: 50%; }
 
 .team {
   margin-top: 1rem; }

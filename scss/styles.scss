@@ -209,7 +209,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    
+
     .vl-1 {
       background-color: $brown;
       width: 10rem;
@@ -252,17 +252,21 @@ nav {
 .coffee-click {
   display: flex;
   flex-direction: row;
-  width: 100%;
-}
+  align-items: center;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  width: 90vw;
 
 
   .text2 {
       @include nunito;
       display: flex;
       flex-direction: column;
-      width: 50%;
-      padding-top: 2rem;
-      margin-top: 4.5rem;
+      width: 45vw;
+      // padding-top: 2rem;
+      margin-top: 1.5rem;
+      margin-bottom: 4.5rem;
+      background-color: yellow;
 
       #coffee-bags {
         width: 60%;
@@ -283,19 +287,23 @@ nav {
         margin-left: .45em;
         margin-right: .45em;
       }
-
+    }
 
   .order {
-    width: 50%;
+      width: 50vw;
 
     .signage {
-      width: 100%;
+      width: 80%;
+      padding-top: .50rem;
+      padding-bottom: .50rem;
+      padding-left: .50rem;
+      padding-right: .50rem;
     }
   }
 }
 
 #location {
-    width: 45%;
+    width: 50%;
 }
 
 .team {
