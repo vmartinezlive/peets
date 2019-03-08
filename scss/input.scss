@@ -234,28 +234,50 @@ nav {
 .coffee-click {
   display: flex;
   flex-direction: row;
+  width: 100%;
 
-}
+
 
   .text2 {
       @include nunito;
       display: flex;
       flex-direction: column;
-      width: 100%;
+      width: 50%;
+      padding-top: 2rem;
+      margin-top: 4.5rem;
 
       #coffee-bags {
-        width: 100%;
+        width: 60%;
+        height: 30%;
+        align-self: center;
+        margin-bottom: 1.5rem;
       }
+
+      h1 {
+        text-align: center;
+        @include nunito;
+      }
+
+      p {
+        @include nunito;
+        @include uppercase;
+        text-align: center;
+        margin-left: .45em;
+        margin-right: .45em;
+      }
+    }
+
   .order {
-    // width: 50%;
+    width: 50%;
 
     .signage {
-      width: 30%;
-      height: 30%;
+      width: 100%;
+      // height: 30%;
     }
   }
-
 }
+
+
 
       // position: relative;
       // top: 50px;
