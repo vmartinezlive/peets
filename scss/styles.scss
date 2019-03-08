@@ -163,10 +163,10 @@ nav {
     margin-left: .35em;
     margin-right: .35em;
     @include nunito;
-    @include media-query {
-      font size -
-    }
-  }
+    // @include media-query {
+    //   font size -
+    // }
+}
 
   .ejo-pic {
     width: 50%;
@@ -196,17 +196,20 @@ nav {
       margin-right: .45em;
     }
     img {
-      padding-left: 1rem;
-      padding-right: 1rem;
+      padding-left: .50rem;
+      padding-right: .50rem;
+      width: 80%;
+      align-self: center;
     }
 
 
   .coffee {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100%;
-
+    
     .vl-1 {
       background-color: $brown;
       width: 10rem;
@@ -216,6 +219,7 @@ nav {
   }
 
   .tea {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -230,6 +234,7 @@ nav {
   }
 
   .equipment {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -248,7 +253,7 @@ nav {
   display: flex;
   flex-direction: row;
   width: 100%;
-
+}
 
 
   .text2 {
@@ -278,7 +283,7 @@ nav {
         margin-left: .45em;
         margin-right: .45em;
       }
-    }
+
 
   .order {
     width: 50%;
