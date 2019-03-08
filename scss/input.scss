@@ -12,6 +12,10 @@ $brown: #8b6f4e;
     text-transform: uppercase;
 }
 
+@mixin capitalize {
+    text-transform: capitalize;
+}
+
 @mixin nunito {
     font-family: 'Nunito', sans-serif;
 }
@@ -308,3 +312,41 @@ nav {
   #beans {
     width: 100%;
   }
+
+section{
+  display: flex;
+  flex-direction: column;
+  @include nunito;
+  text-align: center;
+
+
+    .row1 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      text-align: center;
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
+
+    .row2 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      text-align: center;
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
+
+    h4 {
+      @include uppercase;
+    }
+
+    p {
+      @include capitalize;
+    }
+}
+
+#footer {
+  width: 100%;
+}
