@@ -172,19 +172,19 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    width: 100%;
 
     h1 {
       @include uppercase;
       @include nunito;
       text-align: center;
-
     }
 
     p {
       @include nunito;
       text-align: center;
-      margin-left: 12px;
-      margin-right: 12px;
+      margin-left: .45em;
+      margin-right: .45em;
     }
 
 
@@ -192,11 +192,11 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 325px;
+    width: 100%;
 
     .vl-1 {
       background-color: $brown;
-      width: 175px;
+      width: 10rem;
       align-self: center;
 
     }
@@ -206,11 +206,11 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 325px;
+    width: 100%;
 
     .vl-2 {
       background-color: $brown;
-      width: 115px;
+      width: 9rem;
       align-self: center;
 
     }
@@ -220,11 +220,11 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 325px;
+    width: 100%;
 
     .vl-3 {
       background-color: $brown;
-      width: 220px;
+      width: 15rem;
       align-self: center;
     }
   }

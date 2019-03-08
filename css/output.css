@@ -108,7 +108,8 @@ nav a {
 .shop {
   display: flex;
   flex-direction: row;
-  justify-content: center; }
+  justify-content: center;
+  width: 100%; }
   .shop h1 {
     text-transform: uppercase;
     font-family: 'Nunito', sans-serif;
@@ -116,34 +117,34 @@ nav a {
   .shop p {
     font-family: 'Nunito', sans-serif;
     text-align: center;
-    margin-left: 12px;
-    margin-right: 12px; }
+    margin-left: .45em;
+    margin-right: .45em; }
   .shop .coffee {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 325px; }
+    width: 100%; }
     .shop .coffee .vl-1 {
       background-color: #8b6f4e;
-      width: 175px;
+      width: 10rem;
       align-self: center; }
   .shop .tea {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 325px; }
+    width: 100%; }
     .shop .tea .vl-2 {
       background-color: #8b6f4e;
-      width: 115px;
+      width: 9rem;
       align-self: center; }
   .shop .equipment {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 325px; }
+    width: 100%; }
     .shop .equipment .vl-3 {
       background-color: #8b6f4e;
-      width: 220px;
+      width: 15rem;
       align-self: center; }
 
 .coffee-click {
