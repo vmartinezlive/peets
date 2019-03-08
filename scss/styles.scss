@@ -163,6 +163,9 @@ nav {
     margin-left: .35em;
     margin-right: .35em;
     @include nunito;
+    @include media-query {
+      font size -
+    }
   }
 
   .ejo-pic {

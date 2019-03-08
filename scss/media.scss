@@ -11,3 +11,18 @@
       }
   }
 }
+
+
+@media screen and (max-width: 1150px) {
+  .shop {
+
+  }
+}
+
+
+
+@mixin media-query {
+  @media screen and (max-width: 1150px){
+    @content
+  }
+}
