@@ -26,8 +26,23 @@
 
 //tablet
 @media screen and (max-width: 1145px) {
+  .subscription {
+    display: none;
+  }
+  header {
+      .sign-in {
+        display: none;
+      }
+      nav {
+          display: none;
+      }
+      #logo {
+        position: relative;
+        left: 7rem;
+      }
+  }
   .shop {
-    img {
+      img {
       width: 25vw;
     }
   }
@@ -37,6 +52,18 @@
     }
     p {
       font-size: .50em;
+    }
+  }
+  .ejo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0;
+    .text {
+      margin-bottom: 2rem;
+    }
+    .ejo-pic {
+      width: 80vw;
     }
   }
   .row1 {
@@ -52,15 +79,84 @@
       display: none;
     }
     #social{
-      margin-left: 20rem;
+      margin-left: 10rem;
     }
   }
 }
 
 //mobile 425px;
-@media screen and (max-width: 1141px) {
+@media screen and (max-width: 770px) {
   .subscription {
     display: none;
   }
+  header {
+    #logo {
+      position: relative;
+      left: 3rem;
+    }
+    nav {
+      display: none;
+    }
+  }
+  #woman {
+    width: 85vw
+  }
+  .ejo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
+    .text {
+      margin-top: 0;
+      h1 {
+        font-size: 1rem;
+      }
+    }
+    #ejo-pic {
+      width: 100vw;
+    }
+  }
+  .shop {
+    display: flex;
+    flex-wrap: wrap;
+    img {
+      width: 40vw;
+    }
+    p {
+      font-size: 1.15rem;
+    }
+  }
+  .coffee-click {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .text2 {
+      p {
+        font-size: 1rem;
+      }
+    }
+    .order {
+      margin-bottom: 2em;
+    }
+  }
+  .team {
+    h1 {
+      font-size: 1.15em;
+    }
+  }
+
+  .openings {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    .photo {
+      width: 200%;
+    }
+  }
+  #beans {
+    display: none;
+  }
+  #social {
+    display: none;
+    }
   }

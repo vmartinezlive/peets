@@ -262,6 +262,17 @@ section {
     height: 5vh;
     margin-right: 10rem; } }
 @media screen and (max-width: 1145px) {
+  .subscription {
+    display: none; }
+
+  header .sign-in {
+    display: none; }
+  header nav {
+    display: none; }
+  header #logo {
+    position: relative;
+    left: 7rem; }
+
   .shop img {
     width: 25vw; }
 
@@ -269,6 +280,16 @@ section {
     font-size: .50em; }
   section p {
     font-size: .50em; }
+
+  .ejo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0; }
+    .ejo .text {
+      margin-bottom: 2rem; }
+    .ejo .ejo-pic {
+      width: 80vw; }
 
   .row1 h4 {
     display: none; }
@@ -278,9 +299,62 @@ section {
   .row2 .col-one {
     display: none; }
   .row2 #social {
-    margin-left: 20rem; } }
-@media screen and (max-width: 1141px) {
+    margin-left: 10rem; } }
+@media screen and (max-width: 770px) {
   .subscription {
+    display: none; }
+
+  header #logo {
+    position: relative;
+    left: 3rem; }
+  header nav {
+    display: none; }
+
+  #woman {
+    width: 85vw; }
+
+  .ejo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .ejo .text {
+      margin-top: 0; }
+      .ejo .text h1 {
+        font-size: 1rem; }
+    .ejo #ejo-pic {
+      width: 100vw; }
+
+  .shop {
+    display: flex;
+    flex-wrap: wrap; }
+    .shop img {
+      width: 40vw; }
+    .shop p {
+      font-size: 1.15rem; }
+
+  .coffee-click {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .coffee-click .text2 p {
+      font-size: 1rem; }
+    .coffee-click .order {
+      margin-bottom: 2em; }
+
+  .team h1 {
+    font-size: 1.15em; }
+
+  .openings {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center; }
+    .openings .photo {
+      width: 200%; }
+
+  #beans {
+    display: none; }
+
+  #social {
     display: none; } }
 
 /*# sourceMappingURL=output.css.map */
