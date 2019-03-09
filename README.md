@@ -30,7 +30,7 @@ Replicate the landing page of a website
 
 * Clone from  https://github.com/vmartinezlive/peets.git
 * Open in browser of your choice
-* View at 
+* View at https://vmartinezlive.github.io/peets/
 
 ## Known Bugs
 
