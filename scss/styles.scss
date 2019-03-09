@@ -1,10 +1,3 @@
-
-* {
-  margin: 0;
-  border: 1px solid red;
-
-}
-
 //variable:
 $brown: #8b6f4e;
 
@@ -39,12 +32,9 @@ $brown: #8b6f4e;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
     span {
       width: 1.5rem;
-
     }
-
     #pin {
       text-decoration: none;
       color: white;
@@ -63,21 +53,14 @@ header {
     margin-top: .75rem;
     background-color: #f4f4f4;
     padding-top: .25rem;
-    // margin-left: .15rem;
-    // margin-right: .15rem;
-
     #logo {
-      // position: relative;
       width: 20%;
       height: 60%;
       margin-left: 10rem;
-
     }
 }
 
 nav {
-
-
     a {
       @include uppercase;
       color: black;
@@ -94,8 +77,6 @@ nav {
     flex-direction: row;
     padding-right: .25rem;
 
-
-
     a {
       @include uppercase;
       color: black;
@@ -105,33 +86,25 @@ nav {
       font-size: .75rem;
       @include nunito;
       }
-
     #search {
       position: relative;
       width: 2rem;
       height: 35%;
     }
-
-
     #cart {
       position: relative;
       margin-right: .25rem;
       width: 2rem;
       height: 35%;
       margin-right: 4rem;
-
   }
 }
-
 #woman {
   width: 100%;
 }
-
 .ejo {
   display: flex;
   flex-direction: row;
-
-
   .text {
       @include nunito;
       text-align: center;
@@ -140,55 +113,43 @@ nav {
       bottom: 10rem;
       width: 50%;
       height: 15rem;
-
   }
-
   #top-header {
     @include uppercase;
     color: $brown;
     font-size: 1em;
+    margin-top:0;
   }
-
   h1 {
     font-size: 2rem;
   }
-
   button {
     background-color: $brown;
     color: white;
   }
-
   p {
     text-align: center;
     margin-left: .35em;
     margin-right: .35em;
     @include nunito;
-    // @include media-query {
-    //   font size -
-    // }
-}
-
+  }
   .ejo-pic {
     width: 50%;
     #land {
-      width: 100%;
+      width: 50vw;
     }
-
   }
 }
-
 .shop {
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 100%;
-
     h1 {
       @include uppercase;
       @include nunito;
       text-align: center;
     }
-
     p {
       @include nunito;
       text-align: center;
@@ -201,45 +162,36 @@ nav {
       width: 80%;
       align-self: center;
     }
-
-
   .coffee {
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100%;
-
     .vl-1 {
       background-color: $brown;
       width: 10rem;
       align-self: center;
     }
-
   }
-
   .tea {
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100%;
-
     .vl-2 {
       background-color: $brown;
       width: 9rem;
       align-self: center;
-
     }
   }
-
   .equipment {
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100%;
-
     .vl-3 {
       background-color: $brown;
       width: 15rem;
@@ -247,8 +199,6 @@ nav {
     }
   }
 }
-
-
 .coffee-click {
   display: flex;
   flex-direction: row;
@@ -256,8 +206,6 @@ nav {
   margin-left: 2.5rem;
   margin-right: 2.5rem;
   width: 90vw;
-
-
   .text2 {
       @include nunito;
       display: flex;
@@ -265,20 +213,16 @@ nav {
       width: 45vw;
       margin-top: 1.5rem;
       margin-bottom: 4.5rem;
-
-
       #coffee-bags {
         width: 60%;
         height: 30%;
         align-self: center;
         margin-bottom: 1.5rem;
       }
-
       h1 {
         text-align: center;
         @include nunito;
       }
-
       p {
         @include nunito;
         @include uppercase;
@@ -286,11 +230,13 @@ nav {
         margin-left: .45em;
         margin-right: .45em;
       }
+      button {
+        background-color: $brown;
+        color: white;
+      }
     }
-
   .order {
       width: 50vw;
-
     .signage {
       width: 80%;
       padding-top: .50rem;
@@ -300,11 +246,9 @@ nav {
     }
   }
 }
-
 #location {
     width: 50%;
 }
-
 .team {
   margin-top: 1rem;
   h1 {
@@ -314,12 +258,10 @@ nav {
     @include nunito;
     @include uppercase;
   }
-
   .openings {
     display: flex;
     justify-content: center;
     flex-direction: row;
-
     img {
       width: 20%;
       height: 35%;
@@ -328,18 +270,14 @@ nav {
     }
   }
 }
-
   #beans {
     width: 100%;
   }
-
 section{
   display: flex;
   flex-direction: column;
   @include nunito;
   text-align: center;
-
-
     .row1 {
       display: flex;
       flex-direction: row;
@@ -348,7 +286,6 @@ section{
       margin-left: 3rem;
       margin-right: 3rem;
     }
-
     .row2 {
       display: flex;
       flex-direction: row;
@@ -357,16 +294,13 @@ section{
       margin-left: 3rem;
       margin-right: 3rem;
     }
-
     h4 {
       @include uppercase;
     }
-
     p {
       @include capitalize;
     }
 }
-
 #footer {
   width: 100%;
 }
