@@ -28,9 +28,9 @@ Replicate the landing page of a website
 
 ## Setup/Installation Requirements
 
-* Clone from [] (https://github.com/vmartinezlive/peets.git)
+* Clone from  https://github.com/vmartinezlive/peets.git
 * Open in browser of your choice
-* View at
+* View at 
 
 ## Known Bugs
 
