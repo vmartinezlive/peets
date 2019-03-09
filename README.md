@@ -20,11 +20,11 @@ Replicate the landing page of a website
 ![](img/peets-photos/landing-page5.png)
 ![](img/peets-photos/landing-page6.png)
 ## Cloned Website
-![](img/peets-photos/landingpage-1.png)
-![](img/peets-photos/landingpage-2.png)
-![](img/peets-photos/landingpage-3.png)
-![](img/peets-photos/landingpage-4.png)
-![](img/peets-photos/landingpage-5.png)
+![](img/peets-photos/clone-1.png)
+![](img/peets-photos/clone-2.png)
+![](img/peets-photos/clone-3.png)
+![](img/peets-photos/clone-4.png)
+![](img/peets-photos/clone-5.png)
 
 ## Setup/Installation Requirements
 
